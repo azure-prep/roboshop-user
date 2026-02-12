@@ -6,4 +6,4 @@ WORKDIR /app
 COPY    node_modules node_modules
 COPY package.json ./
 COPY server.js ./
-ENTRYPOINT    ["node", "server.js"]
+ENTRYPOINT    ["node", "/app/server.js"]
